@@ -1,0 +1,62 @@
+body{
+    background-color: white;
+    margin: 15px;
+    padding: 15px;
+    font-family: "Arial";
+    
+}
+div{
+    display: block;
+    position: absolute;
+}
+#bg1{
+    top: 0px;
+    left: 12px;
+    width: 708px;
+    height: 1024px;
+    background: rgba(76,111,255,1);
+}
+#bg2{
+    top: 0px;
+    left: 720px;
+    width: 702px;
+    height: 1024px;
+    background: rgba(229,235,245,1);
+}
+#main1{
+    top: 124px;
+    left: 114px;
+    width: 1216px;
+    height: 764px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    background: rgba(255,255,255,1);
+}
+#login{
+    top: 100px;
+    left: 680px;
+    width: 457px;
+    height: 591px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    background: rgba(247,250,252,1);
+}
+#imgBox{
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    margin-right: 50px;
+}
+#image_1{
+    object-fit: contain;
+}
+#accIcons{
+    display: flex;
+    justify-content: space-between;
+}
